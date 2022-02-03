@@ -1,0 +1,62 @@
+html {
+    display: table;
+    width: 100%;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #0e0e0e;
+    background-image: url("noise.png");
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.btn-wrapper{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+
+.btn {
+    font-size: 57px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    color: #000;
+    text-shadow: 1px 1px 0px #fff;
+    background-color: #00f078;
+    background-image: linear-gradient(#01cb67, #00f078);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.15s ease-out;
+}
+.btn:hover {
+    transform: scale(1.5);
+    background-image: linear-gradient(#02b65d, #03de6f);
+}
+.btn:active {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+audio {
+    position: absolute;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.doge{
+
+}
+
